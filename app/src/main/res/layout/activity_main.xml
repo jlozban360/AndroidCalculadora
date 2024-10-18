@@ -6,7 +6,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/lightgray"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <TableLayout
@@ -203,13 +203,13 @@
         android:id="@+id/textView"
         android:layout_width="290dp"
         android:layout_height="50dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="110dp"
-        android:textAlignment="center"
         android:text="0"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="38sp"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

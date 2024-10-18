@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                 resultado = num1 / num2;
                             else
                             {
-                                binding.textView.setText( "Error: División por 0" );
+                                binding.textView.setText( "División por 0" );
                                 ShouldReset = true;
                                 return;
                             }
